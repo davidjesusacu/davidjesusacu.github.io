@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a graduate student in Computer Science at the University of Toronto.
 
-### More Information
+For more information, please check my [academic website](http://www.cs.toronto.edu/~davidj)!
 
-A place to include any other types of information that you'd like to include about yourself.
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
