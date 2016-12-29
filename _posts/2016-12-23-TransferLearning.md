@@ -52,10 +52,10 @@ As described before, the best and simple idea is to use a trained deep network a
 This architecture can be described as follow:
 
 1. An input image is passed through a Deep CNN and the output of the last fully connected layer is obtained.
-2. This latent vector (z) is then passed through a linear classifier which outputs the 
+2. This hidden vector (z) is then passed through a linear classifier which outputs the 
 P(class \| z).
 
-It is also important to highlight that we are dividing the task in two subproblems. This is the reason why I introduceed a latent vector (z) in the figure. This latent vector (z) are the extracted features which will be store either in memory or in a file in our computer. 
+It is also important to highlight that we are dividing the task in two subproblems. This is the reason why I introduceed a hidden vector (z) in the figure. This hidden vector (z) are the extracted features which will be store either in memory or in a file in our computer. 
 
 > Note that, the outputs of any state-of-the-art network such as ResNet can also be seen as P(class\|image). The difference here is that we have different classes and a different number of classes
 
