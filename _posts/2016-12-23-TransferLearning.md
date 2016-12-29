@@ -29,6 +29,7 @@ We are given a small dataset of labeled images, and we have to build a model tha
 
 Now that we understood what we have to do. We should start considering several ways to tackle the problem. 
 CNNs are the state-of-the-art architecture for image classification tasks. Therefore, it is reasonable to think in a simple CNN to solve this classification problem. However, there are two major problems if we want to train a deep CNN from scratch that generalizes well: 
+
 1. We need a lot of computational resources.
 2. We need a lot of data.
 
@@ -49,8 +50,8 @@ As described before, the best and simple idea is to use a trained deep network a
 ![The solution](../images/post_transfer_learning/transferlearning.png "Proposed Model"){: .center-image }
 
 This architecture can be described as follow:
-1. An input image is passed through a Deep CNN and the output of the last fully connected layer is obtained.
 
+1. An input image is passed through a Deep CNN and the output of the last fully connected layer is obtained.
 2. This latent vector (z) is then passed through a linear classifier which outputs the 
 P(class \| z).
 
@@ -66,12 +67,14 @@ In order to obtain good results, we should use a deep net trained on a very larg
 In this case, I used the [Torch Facebook Implementation of ResNet](https://github.com/facebook/fb.resnet.torch). 
 
 There are several reasons why choosing ResNet:
+
 1. ResNet is a very well-known architecture that achieved state-of-the-art results in the ImageNet competition.	
 2. fb.resnet.torch is a very well tested implementation made by Facebook.
 3. The pretrained models for different ResNet are available (ResNet50,150,200) in this implementation.ss
 
 
 In a next post, I will explain how to implement the described model in Torch7 and I will show how we can get a very accurate image classifier with just a few lines of code. 
+
 
 
 
