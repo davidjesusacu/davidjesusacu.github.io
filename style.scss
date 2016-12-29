@@ -12,7 +12,15 @@
 /**************/
 /* BASE RULES */
 /**************/
-
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+.note-size
+{
+  font-size: 8px
+}
 html {
   font-size: 100%;
 }
