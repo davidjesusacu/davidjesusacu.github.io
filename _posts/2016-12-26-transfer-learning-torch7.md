@@ -45,7 +45,7 @@ $ th fb.resnet.torch/pretrained/extract-features.lua fb.resnet.torch/resnet-50.t
 
 where ```/data/train/``` is the path where the given images are located. At this point we will extract the features of the seven thousand given images.
 
-After a while, we will have a file called ```features.t7``` which contain a Torch tensor with the output of the last fully connected layer of ResNet-50. In our example the Torch tensor has dimensions 7000x2048. 
+After a while, we will have a file called ```features.t7``` which contains a Torch tensor with the output of the last fully connected layer of ResNet-50. In our example the Torch tensor has dimensions 7000x2048. 
 
 In other words, we have converted a 7000x(128x128) input tensor to a 7000x2048 one.
 
@@ -308,7 +308,7 @@ th prediction.lua
 ```
 That's all!!!!!
 
-We have now, our powerful image classifier with just a few lines of code.
+We have our powerful image classifier with just a few lines of code.
 
 Note that, since we use the fb.resnet.torch implementation as a black-box, you can easily change the Deep CNN to whatever you like.
 This is the reason why we loaded the extracted features from an external file.
