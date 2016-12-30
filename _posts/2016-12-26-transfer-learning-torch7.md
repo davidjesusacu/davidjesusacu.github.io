@@ -194,6 +194,7 @@ trainer:train(trainigset)
 ```
 
 After executing, we will get something similar to this:
+
 ```shell
 # StochasticGradient: training
 # .....	
@@ -204,6 +205,7 @@ After executing, we will get something similar to this:
 # validation accuracy = 0.76952380952381
 # .....	
 ```
+
 Now, we are able to detemine the accuracy of the validation and training set during training. We can therefore determine the best learning rate and decide when to stop.
 
 The next step is to save the model, so that we cannot have to retrain it everytime we want to do inference in unseen examples.
