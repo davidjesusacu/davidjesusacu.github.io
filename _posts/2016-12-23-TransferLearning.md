@@ -73,7 +73,7 @@ There are several reasons why choosing ResNet:
 3. The pretrained models for different ResNet are available (ResNet50,150,200) in this implementation.ss
 
 
-In a next post, I will explain how to implement the described model in Torch7 and I will show how we can get a very accurate image classifier with just a few lines of code. 
+In a [next post]({{site.url}}/transfer-learning-torch7/), I will explain how to implement the described model in Torch7 and I will show how we can get a very accurate image classifier with just a few lines of code. 
 
 
 
