@@ -239,6 +239,7 @@ The next figure shows the plot I got after training the classifier for 150 epoch
 ![Learning Curves](../images/post_transfer_learning/learningcurves.png){: .center-image }
 
 From the graph above, we can determine a couple of things:
+
 1. The classifier is generalizing well. We are getting about 82% accuracy in the validation set.
 2. Increasing the number of epoch seems to be a good idea. The classifier it is not completely overfitting yet. We can see that the accuracy of the validation set is still increasing.
 
